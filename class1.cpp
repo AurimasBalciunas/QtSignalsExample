@@ -18,5 +18,5 @@ Class1::~Class1()
 void Class1::on_testButton_clicked()
 {
     count = count+1;
-    emit sendSignal1(count);
+    emit sendSignal1(count); //emitting signal upon testButton being pressed. It is connected in backend.cpp
 }

@@ -14,7 +14,7 @@ Class2::~Class2()
     delete ui;
 }
 
-void Class2::receiveSignal1(int count)
+void Class2::receiveSignal1(int count) //receives signal1 (connected in backend.cpp), sends output text box to corresponding value
 {
     ui->plainTextBox1->setPlainText(QString::number(count));
 }
